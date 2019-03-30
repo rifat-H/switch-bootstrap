@@ -41,13 +41,91 @@ header {
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-    
+
     // <!-- nav start -->
-    nav{}
+
+    nav {
+        .navbar-brand {
+            // margin-right: 230px;
+            // margin: 0 auto;
+        }
+
+        ul {
+            li {
+                input {
+                    border: none;
+                    width: 177px;
+                    height: 27px;
+                    border-radius: 14px;
+                    background-color: #ffffffbe;
+                    padding-left: 20px;
+
+                    &::placeholder {
+                        font-size: 16px;
+                        color: #111111;
+                        font-weight: 300;
+                    }
+                }
+
+                a {
+                    font-size: 16px !important;
+                    color: #ffffff !important;
+                    // font-family: "Proxima Nova";
+
+                }
+            }
+        }
+    }
+
     // <!-- nav end -->
 
     // <!-- banner start -->
-    .banner {}
+    .banner {
+        text-align: center;
+
+        h1 {
+            font-size: 55px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-top: 200px;
+        }
+
+        button {
+            padding: 15px 26px;
+            border-radius: 23px;
+            background-color: #53d153;
+            margin-top: 30px;
+            margin-bottom: 190px;
+            font-size: 22px;
+            color: #ffffff;
+            transition: all linear .3s;
+
+            &:hover{
+                background-color: $grey1;
+            }
+
+        }
+
+        a {
+            margin: 0 auto !important;
+            display: block;
+            width: 135px;
+            padding: 6px 11px;
+            border-radius: 13px;
+            background-color: #ffffffbe;
+            font-size: 16px;
+            color: #111111;
+            font-weight: 300;
+            text-decoration: none;
+            transition: all linear .3s;
+            
+            
+            &:hover{
+                background-color: #53d153;
+                color: #ffffff;
+            }
+        }
+    }
 
     // <!-- banner end -->
 }
