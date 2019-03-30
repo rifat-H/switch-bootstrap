@@ -15,16 +15,19 @@ media query sizes
 get sizes
 get pattern
 devide all section
-trim images
-get fontawesome icons
-get fonts
 
 
 
 fonts
 ==============
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 
 icons
 ==============
-
+<i class="fas fa-arrow-down"></i>
+<i class="fas fa-search"></i>
+<i class="fab fa-dribbble"></i>
+<i class="fab fa-behance"></i>
+<i class="fab fa-twitter"></i>
