@@ -1,10 +1,101 @@
 // common css start
+$monserrat: 'Montserrat',
+sans-serif;
+$sans: 'Open Sans',
+sans-serif;
+$grey1: #b7b3b3;
+$grey2: #828181;
+$green1: #207b20;
+$green2: #2b9b2b;
+
+
+body {
+    font-family: $monserrat;
+}
+
+
+.hed {
+    font-size: 20px;
+    color: #207b20;
+    font-weight: 300;
+}
+
+.hed-2 {
+    font-size: 16px;
+    font-family: $sans;
+    font-weight: 300;
+    text-align: center;
+}
+
+.hed-hr {
+    width: 43px;
+    height: 2px;
+    background-color: #818181;
+}
+
 // common css end
 
 // header start
-header{}
+header {
+    background: url(../images/banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+    // <!-- nav start -->
+    nav{}
+    // <!-- nav end -->
+
+    // <!-- banner start -->
+    .banner {}
+
+    // <!-- banner end -->
+}
+
 // header end
 
+// <!-- services start -->
+.services {}
+
+//<!-- services end -->
+
+//<!-- portfolio start -->
+.portfolio {}
+
+//<!-- portfolio end -->
+
+//<!-- testimonials start -->
+.testimonials {}
+
+//<!-- testimonials end -->
+
+//<!-- client start -->
+.client {}
+
+//<!-- client end -->
+
+//<!-- team start -->
+.team {}
+
+//<!-- team end -->
+
+//<!-- work start -->
+.work {}
+
+//<!-- work end -->
+
+//<!-- info start -->
+.information {}
+
+//<!-- info end -->
+
+//<!-- seen start -->
+.seen {}
+
+//<!-- seen end -->
+
+
 // footer start
-footer{}
+footer {}
+
 // footer end
