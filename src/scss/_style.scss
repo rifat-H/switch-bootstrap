@@ -16,7 +16,6 @@ body {
 
 .hed {
     font-size: 20px;
-    color: #207b20;
     font-weight: 300;
 }
 
@@ -24,13 +23,11 @@ body {
     font-size: 16px;
     font-family: $sans;
     font-weight: 300;
-    text-align: center;
 }
 
 .hed-hr {
     width: 43px;
-    height: 2px;
-    background-color: #818181;
+    height: 1px;
 }
 
 // common css end
@@ -100,7 +97,7 @@ header {
             color: #ffffff;
             transition: all linear .3s;
 
-            &:hover{
+            &:hover {
                 background-color: $grey1;
             }
 
@@ -118,9 +115,9 @@ header {
             font-weight: 300;
             text-decoration: none;
             transition: all linear .3s;
-            
-            
-            &:hover{
+
+
+            &:hover {
                 background-color: #53d153;
                 color: #ffffff;
             }
@@ -133,7 +130,59 @@ header {
 // header end
 
 // <!-- services start -->
-.services {}
+.services {
+    padding: 60px 0;
+    text-align: center;
+
+    .services-head {
+        h1 {
+            color: $grey2;
+        }
+
+        hr {
+            margin: 13px auto;
+            background-color: $grey2;
+
+        }
+
+        p {
+            color: $grey1;
+
+        }
+    }
+
+    .services-content {
+        margin-top: 72px;
+
+        img {}
+
+        h3 {
+            margin-top: 27px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: $grey2;
+            font-weight: bold;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 15px;
+            color: $grey2;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        button {
+            padding: 9px 20px;
+            border-radius: 15px;
+            background-color: #53d153;
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+    }
+
+}
 
 //<!-- services end -->
 
