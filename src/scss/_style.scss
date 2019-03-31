@@ -366,7 +366,7 @@ header {
             color: #a59d9d;
             transition: .3s;
 
-            &:hover{
+            &:hover {
                 background-color: $green;
                 color: white;
             }
@@ -381,7 +381,25 @@ header {
 //<!-- client end -->
 
 //<!-- team start -->
-.team {}
+.team {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #53d153;
+
+    .team-head {
+        h1 {
+            color: $green1;
+        }
+
+        hr {
+            background-color: #1f7b1f;
+        }
+
+        p {
+            color: $green2;
+        }
+    }
+}
 
 //<!-- team end -->
 
