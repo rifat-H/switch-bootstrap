@@ -331,7 +331,46 @@ header {
 //<!-- testimonials end -->
 
 //<!-- client start -->
-.client {}
+.client {
+    background-color: #f2f1f1;
+    padding-top: 36px;
+    padding-bottom: 65px;
+
+    .client-head {
+        h1 {
+            color: $grey2;
+        }
+
+        hr {
+            background-color: #818181;
+        }
+
+        p {
+            color: $grey1;
+        }
+    }
+
+    .client-content {
+        margin-top: 75px;
+    }
+
+    .client-button {
+        text-align: center;
+
+        button {
+            margin-top: 60px;
+            padding: 12px 30px;
+            border-radius: 20px;
+            background-color: #dddcdc;
+            font-size: 18px;
+            color: #a59d9d;
+
+            svg {
+                margin-left: 18px;
+            }
+        }
+    }
+}
 
 //<!-- client end -->
 
