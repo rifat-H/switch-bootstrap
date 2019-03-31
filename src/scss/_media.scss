@@ -3,6 +3,20 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    //<!-- testimonials start -->
+    .testimonials {
+        .slider-content {
+            .client-title{
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    //<!-- testimonials end -->
+
+
     //<!-- portfolio start -->
     .portfolio {
         .portfolio-content {
@@ -13,8 +27,8 @@
                 }
             }
 
-            .morework{
-                button{
+            .morework {
+                button {
                     font-size: 15px;
                 }
             }
@@ -64,6 +78,18 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+        //<!-- testimonials start -->
+        .testimonials {
+            .slider-content {
+                .client-title{
+                    span{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    
+        //<!-- testimonials end -->
 
     // header start
     header {
