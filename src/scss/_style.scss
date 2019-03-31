@@ -449,7 +449,21 @@ header {
 //<!-- team end -->
 
 //<!-- work start -->
-.work {}
+.work {
+    padding: 25px 0;
+    background-color: #3eba3e;
+    text-align: center;
+
+    button {
+        padding: 12px 23px;
+        border-radius: 20px;
+        box-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.1);
+        background-color: #53d153;
+        font-size: 19px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+}
 
 //<!-- work end -->
 
