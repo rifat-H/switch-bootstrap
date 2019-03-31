@@ -27,7 +27,9 @@ body {
 
 .hed-hr {
     width: 43px;
-    height: 1px;
+    height: 2px;
+    margin: 13px auto;
+
 }
 
 // common css end
@@ -136,7 +138,6 @@ header {
         }
 
         hr {
-            margin: 13px auto;
             background-color: $grey2;
 
         }
@@ -262,7 +263,25 @@ header {
 //<!-- portfolio end -->
 
 //<!-- testimonials start -->
-.testimonials {}
+.testimonials {
+    padding-top: 39px;
+    padding-bottom: 60px;
+    .testimonials-head {
+        text-align: center;
+        h1 {
+            color: $grey1;
+        }
+
+        hr {
+            background-color: $grey2;
+            height: 2px;
+        }
+
+        p {
+            color: $grey2;
+        }
+    }
+}
 
 //<!-- testimonials end -->
 
