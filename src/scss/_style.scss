@@ -468,7 +468,60 @@ header {
 //<!-- work end -->
 
 //<!-- info start -->
-.information {}
+.information {
+    text-align: center;
+    background-color: #333333;
+
+    h1 {
+        padding-top: 30px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        color: #dddddd;
+        font-weight: 300;
+    }
+
+    hr {
+        width: 30px;
+        height: 2px;
+        background-color: #dddddd;
+        margin: 5px auto;
+    }
+
+    .info-1 {
+        p {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #cccccc;
+            text-align: center;
+        }
+
+        ul {
+            margin: 0 auto;
+            margin-top: 29px;
+            border-radius: 14px;
+            background-color: #e6e7e6;
+            padding: 6px 0;
+            width: 84px;
+            height: 28px;
+
+            li {
+                a {
+                    .fa-dribbble {
+                        color: #e94b89;
+                    }
+
+                    .fa-behance {
+                        color: #0061ff;
+                    }
+
+                    .fa-twitter {
+                        color: #00abed;
+                    }
+                }
+            }
+        }
+    }
+}
 
 //<!-- info end -->
 
