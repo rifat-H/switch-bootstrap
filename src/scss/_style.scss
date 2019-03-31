@@ -364,6 +364,12 @@ header {
             background-color: #dddcdc;
             font-size: 18px;
             color: #a59d9d;
+            transition: .3s;
+
+            &:hover{
+                background-color: $green;
+                color: white;
+            }
 
             svg {
                 margin-left: 18px;
