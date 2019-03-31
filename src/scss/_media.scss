@@ -3,11 +3,23 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    //<!-- client start -->
+    .client {
+        .client-button {
+            button {
+                padding: 11px 21px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    //<!-- client end -->
+
     //<!-- testimonials start -->
     .testimonials {
         .slider-content {
-            .client-title{
-                span{
+            .client-title {
+                span {
                     font-size: 14px;
                 }
             }
@@ -58,6 +70,20 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    //<!-- client start -->
+    .client {
+        .client-button {
+            button {
+                padding: 11px 21px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    //<!-- client end -->
+
+
+
     // header start
     header {
         .banner {
@@ -78,18 +104,19 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-        //<!-- testimonials start -->
-        .testimonials {
-            .slider-content {
-                .client-title{
-                    span{
-                        font-size: 15px;
-                    }
+
+    //<!-- testimonials start -->
+    .testimonials {
+        .slider-content {
+            .client-title {
+                span {
+                    font-size: 15px;
                 }
             }
         }
-    
-        //<!-- testimonials end -->
+    }
+
+    //<!-- testimonials end -->
 
     // header start
     header {
