@@ -213,8 +213,6 @@ header {
 
         .portfolio-control {
 
-
-
             button {
                 padding: 9px 20px;
                 font-size: 16px;
@@ -224,7 +222,7 @@ header {
                 margin-bottom: 30px;
                 transition: all linear .3s;
 
-                &:hover{
+                &:hover {
                     background-color: #2b9b2b;
                     color: #ffffff;
                 }
@@ -241,7 +239,20 @@ header {
 
         .portfolio-item {
             margin-top: 28px;
-            
+
+        }
+
+        .morework {
+            margin-top: 56px;
+            text-align: center;
+
+            button {
+                padding: 12px 15px;
+                border-radius: 20px;
+                background-color: $green2;
+                font-size: 18px;
+                color: #ffffff;
+            }
         }
     }
 
