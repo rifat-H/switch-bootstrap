@@ -2,56 +2,78 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-    
+
+    //<!-- portfolio start -->
+    .portfolio {
+        .portfolio-content {
+            .portfolio-control {
+                button {
+                    padding: 5px 8px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    //<!-- portfolio end -->
+
     // header start
     header {
-        .banner{
-            h1{
+        .banner {
+            h1 {
                 margin-top: 150px;
                 font-size: 45px;
             }
-            button{
-            font-size: 18px;
+
+            button {
+                font-size: 18px;
 
             }
         }
     }
+
     // header end
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-     // header start
-     header {
-        .banner{
-            h1{
+
+    // header start
+    header {
+        .banner {
+            h1 {
                 margin-top: 150px;
                 font-size: 45px;
             }
-            button{
-            font-size: 18px;
+
+            button {
+                font-size: 18px;
 
             }
         }
     }
+
     // header end
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     // header start
     header {
-        .banner{
-            h1{
+        .banner {
+            h1 {
                 margin-top: 150px;
                 font-size: 45px;
             }
-            button{
-            font-size: 18px;
+
+            button {
+                font-size: 18px;
 
             }
         }
     }
+
     // header end
 }
 
