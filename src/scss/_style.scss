@@ -529,15 +529,15 @@ header {
             background-color: #53d153;
         }
 
-        .bg-2{
+        .bg-2 {
             background-color: #ffba00;
         }
 
-        .bg-3{
+        .bg-3 {
             background-color: #089cea;
         }
 
-        .bg-4{
+        .bg-4 {
             background-color: #f34c03;
         }
 
@@ -556,6 +556,56 @@ header {
             text-align: center;
             padding: 2px 16px;
             border-radius: 3px;
+        }
+    }
+
+    .info-3 {
+        text-align: center;
+
+        p {
+            font-size: 14px;
+            color: #cccccc;
+            font-weight: 300;
+            line-height: 19px;
+            word-spacing: 1.5px;
+        }
+
+        form {
+            margin-top: 20px;
+
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                width: 90%;
+                margin-bottom: 1px;
+                background-color: #444444;
+                border: none;
+                padding: 10px 15px;
+                width: 334px;
+
+            }
+
+            textarea {
+                height: 130px;
+                resize: none;
+            }
+
+            input[type="submit"] {
+                width: 90%;
+                border: none;
+                width: 334px;
+                height: 40px;
+                background-color: #2b9b2b;
+                font-size: 14px;
+                color: #ffffff;
+                transition: .3s;
+
+                &:hover {
+                    color: #2b9b2b;
+                    background-color: #ffffff;
+                }
+            }
+
         }
     }
 }
