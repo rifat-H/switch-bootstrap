@@ -632,7 +632,7 @@ header {
         margin: 5px auto;
     }
 
-    .seen-content{
+    .seen-content {
         margin-top: 25px;
     }
 
@@ -642,6 +642,18 @@ header {
 
 
 // footer start
-footer {}
+footer {
+    padding: 10px 0;
+    background-color: #111111;
+
+    p {
+        font-size: 16px;
+        color: #ffffff;
+        text-align: center;
+        a{
+            color: $green1;
+        }
+    }
+}
 
 // footer end
