@@ -613,7 +613,30 @@ header {
 //<!-- info end -->
 
 //<!-- seen start -->
-.seen {}
+.seen {
+    background-color: #212121;
+    padding: 30px 0;
+    text-align: center;
+
+    h1 {
+        font-size: 16px;
+        letter-spacing: 3px;
+        color: #101010;
+        font-weight: 300;
+    }
+
+    hr {
+        width: 30px;
+        height: 2px;
+        background-color: #0f0f0f;
+        margin: 5px auto;
+    }
+
+    .seen-content{
+        margin-top: 25px;
+    }
+
+}
 
 //<!-- seen end -->
 
