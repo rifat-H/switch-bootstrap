@@ -23,7 +23,7 @@
 <body>
 
     <!-- header start -->
-    <header>
+    <header id="header">
         <!-- nav start -->
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -37,16 +37,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">What do we do ?</a>
+                            <a class="nav-link" href="#what">What do we do ?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonial</a>
+                            <a class="nav-link" href="#testimonials">Testimonial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#information">Contact Us</a>
                         </li>
                         <li class="nav-item d-md-none d-block">
                             <input type="text" placeholder="Search..">
@@ -81,7 +81,7 @@
     <!-- header end -->
 
     <!-- services start -->
-    <section class="services">
+    <section class="services" id="what">
         <div class="container-fluid">
             <!-- section head start -->
             <div class="services-head">
@@ -257,7 +257,7 @@
     <!-- portfolio end -->
 
     <!-- testimonials start -->
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <div class="testimonials-head">
             <h1 class="hed">TESTIMONIALS</h1>
             <hr class="hed-hr">
@@ -560,7 +560,7 @@
     <!-- work end -->
 
     <!-- info start -->
-    <section class="information">
+    <section class="information" id="information">
         <div class="container-fluid">
             <div class="row">
                 <!-- one info -->
@@ -737,6 +737,20 @@
 
     <!-- all -->
     <script src="js/script.js"></script>
+
+    <script>
+        $('.nav-link').on('click', (e) => {
+            let href = $(e.currentTarget).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $(href).offset().top
+            }, '2000');
+
+            e.preventDefault();
+        });
+
+
+    </script>
 </body>
 
 </html>
