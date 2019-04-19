@@ -216,7 +216,10 @@ header {
                 margin-bottom: 30px;
                 transition: all linear .3s;
 
-                &:hover {
+               
+
+                &:focus{
+                    outline: none;
                     background-color: #2b9b2b;
                     color: #ffffff;
                 }
