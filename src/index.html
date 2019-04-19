@@ -73,7 +73,7 @@
         <div class="banner">
             <h1>Art is Eternal Happiness</h1>
             <button>WORK WITH US</button>
-            <a href="">scroll down <i class="fas fa-arrow-down"></i>
+            <a href="#what">scroll down <i class="fas fa-arrow-down"></i>
             </a>
         </div>
         <!-- banner end -->
@@ -757,6 +757,16 @@
 
     <script>
         $('.nav-link').on('click', (e) => {
+            let href = $(e.currentTarget).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $(href).offset().top
+            }, '2000');
+
+            e.preventDefault();
+        });
+
+        $('header .banner a ').on('click', (e) => {
             let href = $(e.currentTarget).attr('href');
 
             $('html, body').animate({
